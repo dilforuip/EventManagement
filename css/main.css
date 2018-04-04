@@ -1,0 +1,9 @@
+.top-nav {
+	margin: 0 auto;
+    padding-top: 13px;
+    width: 980px;
+}
+.menu-bar {
+    height: 82px;
+    min-width: 980px;
+}

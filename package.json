@@ -1,0 +1,14 @@
+{
+  "name": "firstwebsite",
+  "version": "1.0.0",
+  "description": "webApp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dilip",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
