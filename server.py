@@ -8,7 +8,7 @@ import urlparse
 import SimpleHTTPServer
 import SocketServer
 
-HOST = ('0.0.0.0', 8090)
+HOST = ('0.0.0.0', 8080)
 print HOST
 
 class Handler(SimpleHTTPServer.SimpleHTTPRequestHandler):
