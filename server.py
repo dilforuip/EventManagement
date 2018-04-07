@@ -19,9 +19,8 @@ class Handler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
 		print request_file_path
 
-		#if not os.path.exists(request_file_path):
-		self.path = 'index.html'
-
+		if not os.path.exists(request_file_path):
+			self.path = 'index.html'
 
 		return SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET(self)
 

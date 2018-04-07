@@ -6,4 +6,36 @@
 .menu-bar {
     height: 82px;
     min-width: 980px;
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+    position: relative;
+    z-index: 1;
+}
+.text-design{
+	margin-top: 15px;
+	font-size: 20px;
+	color: white;
+	font-family: Garamond;
+	text-align:left;
+}
+
+.topnav-title {
+	width: 170px;
+    height: 34px;
+    background-position: 0 0;
+}
+
+.top-signin {
+	margin-top: 15px;
+}
+
+.label {
+	color: white;
+}
+
+.input-box{
+	width: 150px;
+    height: 20px;
 }
